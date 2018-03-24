@@ -1,22 +1,33 @@
+//+----------------------------------------------------------------+
+//| Class that defines the type of the points                      | 
+//+----------------------------------------------------------------+
 
 
 
 class Point{
   
   //variables declaration
-  int x;
-  int y;
-  int z;
+  int a = 0;
+  int b = 0;
+  int c = 0;
   
   //variables initializations
-  Point(int a, int b, int c){
-    x=a;
-    y=b;
-    z=c;
+  Point(int d, int e, int f){
+    a=d;
+    b=e;
+    c=f;
   }
   
-  //method
-  void xValue(){
-    
+  //methods
+  int xValue(){
+    return(a);
+  }
+
+  int yValue(){
+    return(b);
+  }
+
+  int zValue(){
+    return(c);
   }
 }
