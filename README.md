@@ -10,9 +10,7 @@ The orientation of the laser can be automatic, so the laser will start from the 
 This sensor is an high-performance optical distance measurement sensor from Garmin™.
 The range of the sensor goes from 5 cm to 40 m and his sensibility is +/- 2.5 cm at distances greater than 1 meter.
 
-```html
-<img src="https://static.garmincdn.com/en/products/010-01722-00/g/cf-lg.jpg" alt="Image of the sensor" width="300" height="350" )>
-```
+![sensor image](https://static.garmincdn.com/en/products/010-01722-00/g/cf-lg.jpg)
 
 ## TO DO
 
