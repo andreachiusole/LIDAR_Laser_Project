@@ -11,14 +11,19 @@ void display(int M){
     x = p.xValue();
     y = p.yValue();
     z = p.zValue();
-        
-    //stroke(colour);
+    
     if(i != 0){
+      //here the color changes in according to the depth of the point 
+      int blue = map(z, 5, 40000, 0, 255);;
+      int red = 255-blue;
+      stroke(red,blue,0);
+      
       line(xP,yP,zP,x,y,z);
     } 
 
+    //the last point will be connected with the Origin Point through a red line
     if(i == M){
-      //stroke(RED);
+      stroke(150,0,0);
       line(x,y,z,0,0,0);
     }
 

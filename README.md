@@ -10,7 +10,9 @@ The orientation of the laser can be automatic, so the laser will start from the 
 This sensor is an high-performance optical distance measurement sensor from Garmin™.
 The range of the sensor goes from 5 cm to 40 m and his sensibility is +/- 2.5 cm at distances greater than 1 meter.
 
-![Image of the sensor](https://static.garmincdn.com/en/products/010-01722-00/g/cf-lg.jpg)
+```html
+<img src="https://static.garmincdn.com/en/products/010-01722-00/g/cf-lg.jpg" alt="Image of the sensor" width="300" height="350" )>
+```
 
 ## TO DO
 
@@ -23,9 +25,9 @@ The range of the sensor goes from 5 cm to 40 m and his sensibility is +/- 2.5 cm
 
 * [x] draw the red line to indicate where the laser is pointing
 * [x] create the class Point 
-  * the class has to have some methods to extract the value of the coordinates from the Point object
+  * [x] the class has to have some methods to extract the value of the coordinates from the Point object
 
 ##### Addictional things to do
 
-* [ ] the color of the lines changes in according to the distance of the points from the origin
+* [x] the color of the lines changes in according to the distance of the points from the origin
 * [ ] check if the zoom function create problems in the execution od the program
