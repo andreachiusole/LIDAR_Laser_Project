@@ -27,5 +27,5 @@ The range of the sensor goes from 5 cm to 40 m and his sensibility is +/- 2.5 cm
 
 ##### Addictional things to do
 
-* [x] the color of the lines changes in according to the distance of the points from the origin
-* [ ] check if the zoom function create problems in the execution od the program
+* [x] the color of the lines changes in according to the distance of the points from the origin (not perfect, because the line changes the color only from one point to the other
+* [ ] check if the zoom function create problems in the execution of the program
