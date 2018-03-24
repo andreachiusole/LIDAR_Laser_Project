@@ -5,7 +5,12 @@
 The finality of this project is to scan a 3D ambient using a lidar laser attached to a couple of servomotors, which are controlled by the Arduino Mega, and then, via the serial connection, recreate the ambient with processing.
 The orientation of the laser can be automatic, so the laser will start from the bottom left point and then take all the measures of the points, or manual, so the user can decide which part of the ambient has to be analyzed
 
-##
+## The LIDAR-Lite v3 sensor
+
+This sensor is an high-performance optical distance measurement sensor from Garmin™.
+The range of the sensor goes from 5 cm to 40 m and his sensibility is +/- 2.5 cm at distances greater than 1 meter.
+
+![Image of the sensor](https://static.garmincdn.com/en/products/010-01722-00/g/cf-lg.jpg)
 
 ## TO DO
 
