@@ -1,0 +1,23 @@
+cose da fare per il progetto del radar 
+
+ARDUINO:
+	- gestione dello schermo lcd
+	- inviare i valori in cm!
+
+PROCESSING:
+	-fare la linea rossa che indica la direzione del radar
+
+	/ sistemare in tutte le versioni di "PUNTI..." il tipo di variabile che viene letta in ingresso
+		~ tenere il tipo di valore letto ocme intero perché così si risparmia un carattere.
+
+	- terminare l'idea di "PUNTI_SPAZIALI_MISTICI_1" di prendere il valore della X ogni tre elementi contenuti nella lista. 
+
+	/ creare in "PUNTI_SPAZIALI_MISTICI_2" la classe "Point" che serve per immagazzinare i valori nell'ArrayList
+		~ la classe deve avere dei metodi per poter estrarre un valore alla volta. 
+
+	### cose secondarie ###
+	- variazione di colore in funzione della distanza
+
+	- guardare se la modifica dello zoom funziona correttamente o fa casino
+
+	- controllare la parte del programma riguardante la ricezione, è da verificare che Arduino non invii, al posto di una cifra, un carattere vuoto e l'eventuale insorgere di problemi dovuti a questo
