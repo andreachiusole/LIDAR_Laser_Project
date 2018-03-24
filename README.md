@@ -5,6 +5,8 @@
 The finality of this project is to scan a 3D ambient using a lidar laser attached to a couple of servomotors, which are controlled by the Arduino Mega, and then, via the serial connection, recreate the ambient with processing.
 The orientation of the laser can be automatic, so the laser will start from the bottom left point and then take all the measures of the points, or manual, so the user can decide which part of the ambient has to be analyzed
 
+##
+
 ## TO DO
 
 #### Arduino
