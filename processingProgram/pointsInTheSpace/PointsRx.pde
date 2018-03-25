@@ -12,7 +12,6 @@ void serialEvent(Serial myPort){
   if (str != null) {
     str = str.substring(0,(str.length()-1));
     splitting(str);
-    pointsNumber++;
     myPort.clear();
   }
   

@@ -4,10 +4,6 @@ import processing.serial.*;
 Serial myPort;
 int pointsNumber = 0;
 ArrayList<Point> points = new ArrayList<Point>();
-float xRot=0, yRot=0, depth=+100;
-int x=0, y=0, z=0, xP=0, yP=0, zP=0;
-
-
 
 void setup(){
   size(800,800,P3D);
